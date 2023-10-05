@@ -1,0 +1,63 @@
+.App {
+  text-align: center;
+  background-color: #282c34;
+  height: 100vh;
+  color: azure;
+}
+
+.search-section{
+  display: flex;
+  justify-content: center;
+ height:  120px;
+ align-items: center;
+}
+.search-section input{
+display: flex;
+height: 50px;
+width: 70%;  
+padding-left: 15px;
+  border-radius: 2rem;
+  font-size: 20px;
+  font-weight: 400;
+  border:none;
+  outline:none
+
+  ;background-color:azure;
+}
+.search-icon{
+display:flex ;
+justify-content: center;
+align-items: center;
+border-radius: 50px;
+
+  background-color:  azure;
+  width: 50px;
+  height: 50px;
+}
+.temp{
+  color: azure;
+}
+
+.data{
+  display: flex;
+margin-top: 60px;
+  justify-content: space-around;
+  align-items: center;
+}
+.humidity{
+  display: flex;
+
+  justify-content: space-around;
+  align-items: center;
+}
+.wind-speed{
+  display: flex;
+
+  justify-content: space-around;
+  align-items: center;
+}
+.majbori{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
